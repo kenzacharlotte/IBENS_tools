@@ -9,8 +9,8 @@ def GC_skew_SW(fasta_file, fenetre, step):
     - fenetre : (int) la taille de la fenêtre glissante permettant le calcul du GC_skew
     
     Returns : 
-    - GC_list : (list) une liste contenant le GC_contenet pour chaque position dans la séquence
-    - taille_seq : (int) qui est la taille de la séquence contenue dans le fichier fasta (optionnel)
+    - GC_list : (list) une liste contenant le GC_content pour chaque position dans la séquence
+    - cumul : (list) une liste contenant le GC cumulatif
     """
     pfile = open(os.getcwd()+fasta_file, 'r')
    
