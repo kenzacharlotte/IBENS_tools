@@ -1,3 +1,7 @@
+import os 
+import matplotlib.pyplot as plt
+import numpy as np
+
 def GC_skew_SW(fasta_file, fenetre, step):
     """
     Parameters : 
